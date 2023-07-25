@@ -4,7 +4,7 @@
          --------------------------*/
       // tab  carouseljs
       // initialize product scroller
-      advanceArrows("citrusX-Dog-Product");
+      advanceArrows("citrusNulo-Dog-Product");
       function advanceArrows(idx) {
         var splideElement = "#" + idx;
         var splideDefaultOptions = {
@@ -49,12 +49,12 @@
       /* ************************************************************************************** */
       //for tab sweater & loader added
       document.addEventListener("DOMContentLoaded", function () {
-        filterDogCatProducts("citrusX-Dog-Product");
+        filterDogCatProducts("citrusNulo-Dog-Product");
       });
       // for dog filter function
       function filterDogCatProducts(c) {
         var x, i;
-        x = document.getElementsByClassName("citrusXDogCat__Product");
+        x = document.getElementsByClassName("citrusNuloDogCat__Product");
         if (c == "all") c = "";
         for (i = 0; i < x.length; i++) {
           RemoveClass(x[i], "citrusTabShow");
@@ -88,10 +88,10 @@
       // Add active class to the current button (highlight it)
       document.addEventListener("DOMContentLoaded", function () {
         // for dog active class filter
-        var dogBtnContainer = document.getElementById("citrusXDogCat_ID");
+        var dogBtnContainer = document.getElementById("citrusNuloDogCat_ID");
         var dogBtns =
-          dogBtnContainer.getElementsByClassName("citrusXDogCat__tab_item");
-        addActiveClass(dogBtns, "citrusXDogCat__active_tab");
+          dogBtnContainer.getElementsByClassName("citrusNuloDogCat__tab_item");
+        addActiveClass(dogBtns, "citrusNuloDogCat__active_tab");
       });
       function addActiveClass(element, activeClass) {
         for (var i = 0; i < element.length; i++) {
