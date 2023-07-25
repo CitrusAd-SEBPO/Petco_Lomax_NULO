@@ -858,7 +858,7 @@ width: 80%;
 
   /* Food Item section */
   .citrusNulo__category {
-    width: 1080px;
+    width: 1080px !important;
     column-gap: 0;
   }
 
