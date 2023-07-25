@@ -371,9 +371,15 @@ body {
   display: none;
 }
 
-.citrusNulo__Product,
-.citrusNuloDogCat__Product {
+.citrusNulo__Product {
   max-width: 195px;
+  width: 100% !important;
+  margin: 0px 9px;
+  display: none;
+}
+
+.citrusNuloDogCat__Product {
+  max-width: 265px;
   width: 100% !important;
   margin: 0px 9px;
   display: none;
@@ -650,10 +656,14 @@ body {
 
 @media all and (max-width: 575px) {
 
-  .citrusNulo__Product,
-  .citrusNuloDogCat__Product {
+  .citrusNulo__Product {
     max-width: 195px;
   }
+
+  /* .citrusNulo__Product,
+  .citrusNuloDogCat__Product {
+    max-width: 195px;
+  } */
 }
 
 @media all and (max-width: 375px) {
