@@ -4,8 +4,8 @@
          --------------------------*/
       // tab  carouseljs
       // initialize product scroller
-      advanceArrows("citrusNulo-Dog-Product");
-      function advanceArrows(idx) {
+      advanceArrowsDogCat("citrusNulo-Dog-Product");
+      function advanceArrowsDogCat(idx) {
         var splideElement = "#" + idx;
         var splideDefaultOptions = {
           arrows: true,
@@ -16,12 +16,13 @@
           rewindSpeed: 500,
           speed: 500,
           pauseOnHover: true,
-          perPage: 6,
+          perPage: 4,
           perMove: 1,
+          gap: 20,
           omitEnd: true,
           breakpoints: {
             375: {
-              perPage: 1,
+              perPage: 1.4,
             },
             576: {
               perPage: 1,
@@ -36,10 +37,10 @@
               perPage: 4,
             },
             1200: {
-              perPage: 5,
+              perPage: 4,
             },
             1440: {
-              perPage: 6,
+              perPage: 4,
             },
           },
         };
@@ -60,7 +61,7 @@
           RemoveClass(x[i], "citrusTabShow");
           if (x[i].className.indexOf(c) > -1) AddClass(x[i], " citrusTabShow");
         }
-        advanceArrows(c);
+        advanceArrowsDogCat(c);
       }
       function AddClass(element, name) {
         var i, arr1, arr2;

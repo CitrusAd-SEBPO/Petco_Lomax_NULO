@@ -17,6 +17,7 @@
             pauseOnHover: true,
             perPage: 6,
             perMove: 1,
+            gap:20,
             omitEnd: true,
             breakpoints: {
                 375: {
@@ -32,7 +33,7 @@
                     perPage: 3,
                 },
                 1024: {
-                    perPage: 6,
+                    perPage: 4,
                 },
                 1200: {
                     perPage: 6,
