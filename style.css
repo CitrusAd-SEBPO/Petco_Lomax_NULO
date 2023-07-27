@@ -193,6 +193,11 @@ body {
 
 
 @media screen and (max-width:1024px) {
+  .citrusNuloDogCat__tab-content {
+    width: 90%;
+    margin: auto;
+  }
+
   .citrusNulo__item_image img {
     width: 80px;
   }
@@ -245,6 +250,15 @@ body {
   .citrusNulo__main-tab-content {
     /* width: 80%; */
     padding: 0 0 0 30px;
+  }
+
+  .citrusNuloDogCat__tab-content {
+    width: 95%;
+    margin: auto;
+  }
+
+  p.citrusNuloDogCat_details {
+    min-height: 6em!important;
   }
 
   .citrusNulo__desktop-version {
@@ -334,6 +348,9 @@ body {
     width: 274px;
     font-size: 24px;
   }
+  p.citrusNuloDogCat_details {
+    min-height: 4em!important;
+}
 }
 
 @media screen and (max-width:375px) {
@@ -860,9 +877,10 @@ p.citrusNuloDogCat_details {
 
 
 /* Lifestyle Image Section */
-.citrusNulo__lifestyle_image_section{
+.citrusNulo__lifestyle_image_section {
   padding: 40px 0;
 }
+
 .citrusNulo__lifestyle_image_row {
   display: grid;
   grid-template-columns: 2fr 3fr;
@@ -969,9 +987,10 @@ width: 80%;
   .citrusNulo_lifestyle_image_text h3 {
     width: 282px;
   }
+
   .citrusNulo_Lifestyle_text-block h4 {
     padding-bottom: 5%;
-}
+  }
 }
 
 @media screen and (max-width: 425px) {

@@ -34,7 +34,7 @@
               perPage: 3,
             },
             1024: {
-              perPage: 4,
+              perPage: 3,
             },
             1200: {
               perPage: 4,
