@@ -57,7 +57,10 @@ body {
 
 .citrusNulo__sectionSubhead {
   text-align: center;
+  font-size: 16px;
   font-family: "PetcoCircularTT-Regular", arial !important;
+  color: black;
+  padding-bottom: 10px!important;
 }
 
 .citrusNulo__commonCTA {
@@ -162,7 +165,7 @@ body {
 .citrusNulo__heroCTa_container {
   display: flex;
   gap: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 14px;
 }
 
 .citrusNulo__heroCTa {
@@ -183,7 +186,7 @@ body {
   font-weight: 900;
 }
 
-@media screen and (max-width:1320px) {
+@media screen and (max-width: 1320px) {
   .citrusNulo__item_details h1 {
     font-size: 26px;
     line-height: initial;
@@ -191,8 +194,7 @@ body {
   }
 }
 
-
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .citrusNuloDogCat__tab-content {
     width: 90%;
     margin: auto;
@@ -215,7 +217,7 @@ body {
   }
 }
 
-@media screen and (max-width:921px) {
+@media screen and (max-width: 921px) {
   .citrusNulo__item_image img {
     width: 70px;
   }
@@ -242,24 +244,30 @@ body {
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .splide__arrow {
     display: none;
+  }
+
+  .citrusNulo__heroCTa_container {
+    padding-bottom: 8px;
   }
 
   .citrusNulo__main-tab-content {
     padding: 0 0 0 30px;
   }
-
   .citrusNuloDogCat__tab-content {
     width: 95%;
     margin: auto;
   }
 
   p.citrusNuloDogCat_details {
-    min-height: 6em!important;
-  }
+    min-height: 4em !important;
+    padding: 10px !important;
+}
+}
 
+@media screen and (max-width: 767px) {
   .citrusNulo__desktop-version {
     display: none;
   }
@@ -310,7 +318,7 @@ body {
   }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width: 680px) {
   .citrusNulo__carousel_background_image img {
     padding-top: 50%;
   }
@@ -332,9 +340,13 @@ body {
   }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 425px) {
   .citrusNulo__carousel_background_image img {
     padding-top: 60%;
+  }
+
+  .citrusNulo__carousel_copy {
+    top: 6%;
   }
 
   .citrusNulo__item_image img {
@@ -348,13 +360,31 @@ body {
     font-size: 24px;
   }
   p.citrusNuloDogCat_details {
-    min-height: 4em!important;
-}
+    min-height: 4em !important;
+  }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
+  .citrusNulo__carousel_background_image img {
+    padding-top: 65%;
+  }
   .citrusNulo__carousel_copy {
     top: 5%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .citrusNulo__carousel_background_image img {
+    padding-top: 60%;
+  }
+
+  .citrusNulo__item_details h1 {
+    line-height: 20px;
+    font-size: 17px;
+  }
+
+  .citrusNulo__sectionTitle {
+    font-size: 22px;
   }
 }
 
@@ -398,13 +428,11 @@ body {
 
 .citrusNulo__Product {
   display: none;
-
 }
 
 .citrusNulo__Product img {
   object-fit: contain;
 }
-
 
 .citrusNuloDogCat__Product {
   display: none;
@@ -416,10 +444,10 @@ body {
 
 .citrusNulo-tab-cardImg img {
   max-width: 100%;
-  min-height: 175px;
+  max-height: 175px;
 }
 
-.citrusNulo-tab-card>a {
+.citrusNulo-tab-card > a {
   text-decoration: none;
   color: #000;
 }
@@ -443,13 +471,10 @@ body {
   font-weight: 500;
 }
 
-
 .citrusNuloDogCat__Product .citrusNulo-tab-card,
 .citrusNuloDogCat__Product .citrusNulo-tab-card p {
   text-align: center;
 }
-
-
 
 .citrusNuloDogCat__cardBody {
   padding-top: 20px;
@@ -465,13 +490,11 @@ body {
 
 p.citrusNuloDogCat_details {
   margin: auto;
-  padding: 10px 20px;
+  padding: 10px 35px;
   -webkit-line-clamp: 4;
   line-clamp: unset;
   min-height: 4em;
-
 }
-
 
 .citrusNulo__productCTA {
   border: 0;
@@ -534,7 +557,6 @@ p.citrusNuloDogCat_details {
   display: block;
 }
 
-
 .citrusNulo__groupProductShot {
   border: 1px solid #001952;
   border-radius: 10px;
@@ -560,7 +582,6 @@ p.citrusNuloDogCat_details {
   display: flex;
   flex-direction: column;
   font-weight: 900;
-
 }
 
 .groupCtaDimention p {
@@ -594,7 +615,6 @@ p.citrusNuloDogCat_details {
   text-align: center;
 }
 
-
 .citrusNulo__tab_item.citrusNulo__active_tab,
 .citrusNuloDogCat__tab_item.citrusNuloDogCat__active_tab {
   color: #001952;
@@ -614,13 +634,12 @@ p.citrusNuloDogCat_details {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 30px;
-  border-bottom: 1px solid #021b4e;
+  border-bottom: 1px solid #001952;
 }
 
 #citrusNulo__boringToBon {
   padding-bottom: 10px !important;
 }
-
 
 /* hide arrow */
 .citrusNulo_hide_arrow .splide__arrows {
@@ -634,7 +653,6 @@ p.citrusNuloDogCat_details {
 }
 
 @media screen and (min-width: 922px) and (max-width: 1120px) {
-
   .citrusNulo__commonCTA {
     width: 170px;
     height: 40px;
@@ -657,12 +675,9 @@ p.citrusNuloDogCat_details {
     font-size: 12px !important;
     line-height: 12px !important;
   }
-
-
 }
 
 @media screen and (max-width: 768px) {
-
   /* product section */
   .citrusNuloTabId {
     width: max-content;
@@ -697,7 +712,6 @@ p.citrusNuloDogCat_details {
 }
 
 @media all and (max-width: 575px) {
-
   .citrusNulo__Product {
     max-width: 195px;
   }
@@ -790,11 +804,10 @@ p.citrusNuloDogCat_details {
   color: #000;
 }
 
-.citrusNulo__card-individual_width {
+p.citrusNulo__card-individual_width {
   width: 223px;
   margin: auto;
 }
-
 
 /* Lifestyle Image Section */
 .citrusNulo__lifestyle_image_section {
@@ -840,7 +853,7 @@ p.citrusNuloDogCat_details {
 
 .citrusNulo_Lifestyle_text-block h4 {
   margin: auto;
-  padding: 10px;
+  padding: 20px;
   font-size: 14px;
   line-height: 16px;
   color: white;
@@ -879,74 +892,19 @@ p.citrusNuloDogCat_details {
 /* Responsive CSS */
 
 @media all and (max-width: 320px) {
-
   /* lifestyle_image Grade Section */
   #citusHonest__lifestyle_imageDesc {
     width: 250px;
   }
 }
 
-@media screen and (max-width: 375px) {
-
-  /* Food Item section */
-  .citrusNulo__category {
-    width: 1080px !important;
-    column-gap: 0;
-  }
-
-  /* Lifestyle Image Section */
-  .citrusNulo_lifestyle_image_text h3 {
-    width: 282px;
-  }
-
+@media screen and (max-width: 767px) {
   .citrusNulo_Lifestyle_text-block h4 {
-    padding-bottom: 5%;
+    padding-bottom: 8% !important;
   }
-}
-
-@media screen and (max-width: 425px) {
-
-  /* Common Style */
-  .splide__arrows {
-    display: none;
-  }
-
-  /* Food Item section */
-  .citrusNulo__category {
-    width: 1140px;
-  }
-
-  /* lifestyle_image Grade Section */
-  .citrusNulo_Lifestyle_text-block h4 {
-    width: 294px;
-    margin: auto;
-    padding-bottom: 15px;
-  }
-
-  .citrusNulo__lifestyle_image_row {
-    padding: 0;
-  }
-
-  #lifestyle_imageDesktopImage {
-    display: none;
-  }
-
-  #lifestyle_imageMobileImage {
-    display: block;
-  }
-
-  .citrusNulo_Lifestyle_text-block h4 {
-    padding-bottom: 5%!important;
-}
-
-  .citrusNulo_lifestyle_image_text p {
-    width: 335px;
-  }
-  
 }
 
 @media screen and (max-width: 768px) {
-
   /* Common Style */
   .citrusNulo__desktop_block {
     display: none;
@@ -1033,13 +991,12 @@ p.citrusNuloDogCat_details {
 
   .citrusNulo_Lifestyle_text-block h4 {
     margin: auto;
-    padding-bottom: 8%;
+    padding-bottom: 4%;
     font-size: 16px;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  
   /* lifestyle_image Grade Section */
 
   .citrusNulo_lifestyle_image_text {
@@ -1056,7 +1013,6 @@ p.citrusNuloDogCat_details {
     width: 100%;
   }
 
-
   .citrusNulo_lifestyle_image_text p {
     margin-top: 10px;
     margin-bottom: 22px;
@@ -1069,5 +1025,60 @@ p.citrusNuloDogCat_details {
 
   .citrusNulo_head_title_br_mob {
     display: block;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* Common Style */
+  /* .splide__arrows {
+    display: none;
+  } */
+
+  /* Food Item section */
+  .citrusNulo__category {
+    width: 1140px;
+  }
+
+  /* lifestyle_image Grade Section */
+  .citrusNulo_Lifestyle_text-block h4 {
+    width: 294px;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+
+  .citrusNulo__lifestyle_image_row {
+    padding: 0;
+  }
+
+  #lifestyle_imageDesktopImage {
+    display: none;
+  }
+
+  #lifestyle_imageMobileImage {
+    display: block;
+  }
+
+  .citrusNulo_Lifestyle_text-block h4 {
+    padding-bottom: 5% !important;
+  }
+
+  .citrusNulo_lifestyle_image_text p {
+    width: 335px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* Food Item section */
+  .citrusNulo__category {
+    width: 1080px !important;
+    column-gap: 0;
+  }
+
+  /* Lifestyle Image Section */
+  .citrusNulo_lifestyle_image_text h3 {
+    width: 282px;
+  }
+  .citrusNulo_Lifestyle_text-block h4 {
+    padding-bottom: 5% !important;
   }
 }

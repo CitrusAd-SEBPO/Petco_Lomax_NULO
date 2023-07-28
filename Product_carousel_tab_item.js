@@ -42,7 +42,52 @@
                     perPage: 6,
                 },
             },
+            
         };
+
+        // If the add 3rd product then we will skip it
+        if(idx==="nulo-CatTreatsFood-product"){
+            var splideDefaultOptions = {
+                arrows: true,
+                type: "slide",
+                start: 0,
+                focus: 0,
+                pagination: false,
+                rewindSpeed: 500,
+                speed: 500,
+                pauseOnHover: true,
+                perPage: 5,
+                perMove: 1,
+                gap:20,
+                omitEnd: true,
+                breakpoints: {
+                    375: {
+                        perPage: 1,
+                    },
+                    576: {
+                        perPage: 1,
+                    },
+                    991: {
+                        perPage: 3,
+                    },
+                    992: {
+                        perPage: 3,
+                    },
+                    1024: {
+                        perPage: 4,
+                    },
+                    1200: {
+                        perPage: 5,
+                    },
+                    1440: {
+                        perPage: 5,
+                    },
+                },
+                
+            };
+        }
+        // at there.
+
         new Splide(splideElement, splideDefaultOptions).mount();
     }
 
