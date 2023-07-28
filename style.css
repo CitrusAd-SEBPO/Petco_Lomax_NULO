@@ -60,7 +60,7 @@ body {
   font-size: 16px;
   font-family: "PetcoCircularTT-Regular", arial !important;
   color: black;
-  padding-bottom: 10px!important;
+  padding-bottom: 10px !important;
 }
 
 .citrusNulo__commonCTA {
@@ -264,7 +264,7 @@ body {
   p.citrusNuloDogCat_details {
     min-height: 4em !important;
     padding: 10px !important;
-}
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1075,9 +1075,15 @@ p.citrusNulo__card-individual_width {
   }
 
   /* Lifestyle Image Section */
+  .citrusNulo_lifestyle_image_text {
+    min-height: 214px;
+  }
   .citrusNulo_lifestyle_image_text h3 {
     width: 282px;
   }
+  .citrusNulo_lifestyle_image_text p {
+    margin-bottom: 25px;
+}
   .citrusNulo_Lifestyle_text-block h4 {
     padding-bottom: 5% !important;
   }
