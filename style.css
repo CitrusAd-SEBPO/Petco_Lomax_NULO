@@ -576,6 +576,14 @@ p.citrusNuloDogCat_details {
   text-decoration: none;
 }
 
+.citrusNulo__groupProductShot__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: auto;
+}
+
 .citrusNulo__groupProductShotImage img {
   max-height: 144px;
   padding: 20px 0;
