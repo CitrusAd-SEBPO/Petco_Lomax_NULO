@@ -162,6 +162,7 @@ body {
 .citrusNulo__heroCTa_container {
   display: flex;
   gap: 20px;
+  padding-bottom: 10px;
 }
 
 .citrusNulo__heroCTa {
@@ -582,9 +583,9 @@ p.citrusNuloDogCat_details {
   margin: 0px 10px;
   font-size: 14px;
   text-decoration: none;
-  background-color: #ffffff;
+  background-color: transparent;
   border: none;
-  border-bottom: 10px solid #fff;
+  border-bottom: 10px solid transparent;
   cursor: pointer;
   color: #6e6b6b;
   font-family: "PetcoCircularTT-Bold", arial !important;
@@ -934,9 +935,14 @@ p.citrusNuloDogCat_details {
     display: block;
   }
 
+  .citrusNulo_Lifestyle_text-block h4 {
+    padding-bottom: 5%!important;
+}
+
   .citrusNulo_lifestyle_image_text p {
     width: 335px;
   }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -974,9 +980,9 @@ p.citrusNuloDogCat_details {
   }
 
   /* lifestyle_image Grade Section */
-  .citrusNulo__lifestyle_image_section {
+  /* .citrusNulo__lifestyle_image_section {
     margin-bottom: 40px !important;
-  }
+  } */
 
   .citrusNulo__lifestyle_image_container {
     background-color: #fff;
