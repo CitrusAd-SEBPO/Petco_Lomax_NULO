@@ -787,6 +787,10 @@ p.citrusNuloDogCat_details {
   text-align: center;
 }
 
+.citrusNulo__RawFoodContainer a:hover {
+  text-decoration: none;
+}
+
 .citrusNulo__category {
   width: 1384px;
   display: flex;
